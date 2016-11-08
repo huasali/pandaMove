@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		561271BE1DD17780001CDCFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 561271BD1DD17780001CDCFF /* main.m */; };
+		561271C11DD17780001CDCFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 561271C01DD17780001CDCFF /* AppDelegate.m */; };
+		561271C41DD17780001CDCFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 561271C31DD17780001CDCFF /* ViewController.m */; };
+		561271C71DD17780001CDCFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 561271C51DD17780001CDCFF /* Main.storyboard */; };
+		561271C91DD17780001CDCFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 561271C81DD17780001CDCFF /* Assets.xcassets */; };
+		561271CC1DD17780001CDCFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 561271CA1DD17780001CDCFF /* LaunchScreen.storyboard */; };
+		561271D71DD17781001CDCFF /* PandaJumpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 561271D61DD17781001CDCFF /* PandaJumpTests.m */; };
+		561271E21DD17781001CDCFF /* PandaJumpUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 561271E11DD17781001CDCFF /* PandaJumpUITests.m */; };
+		561271F11DD177B6001CDCFF /* PandaFaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 561271F01DD177B6001CDCFF /* PandaFaceView.m */; };
+		561271F41DD18641001CDCFF /* JumpBallView.m in Sources */ = {isa = PBXBuildFile; fileRef = 561271F31DD18641001CDCFF /* JumpBallView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		561271D31DD17781001CDCFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 561271B11DD1777F001CDCFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 561271B81DD17780001CDCFF;
+			remoteInfo = PandaJump;
+		};
+		561271DE1DD17781001CDCFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 561271B11DD1777F001CDCFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 561271B81DD17780001CDCFF;
+			remoteInfo = PandaJump;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		561271B91DD17780001CDCFF /* PandaJump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PandaJump.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		561271BD1DD17780001CDCFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		561271BF1DD17780001CDCFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		561271C01DD17780001CDCFF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		561271C21DD17780001CDCFF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		561271C31DD17780001CDCFF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		561271C61DD17780001CDCFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		561271C81DD17780001CDCFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		561271CB1DD17780001CDCFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		561271CD1DD17780001CDCFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		561271D21DD17781001CDCFF /* PandaJumpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PandaJumpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		561271D61DD17781001CDCFF /* PandaJumpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PandaJumpTests.m; sourceTree = "<group>"; };
+		561271D81DD17781001CDCFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		561271DD1DD17781001CDCFF /* PandaJumpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PandaJumpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		561271E11DD17781001CDCFF /* PandaJumpUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PandaJumpUITests.m; sourceTree = "<group>"; };
+		561271E31DD17781001CDCFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		561271EF1DD177B6001CDCFF /* PandaFaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PandaFaceView.h; sourceTree = "<group>"; };
+		561271F01DD177B6001CDCFF /* PandaFaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PandaFaceView.m; sourceTree = "<group>"; };
+		561271F21DD18641001CDCFF /* JumpBallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JumpBallView.h; sourceTree = "<group>"; };
+		561271F31DD18641001CDCFF /* JumpBallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JumpBallView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		561271B61DD17780001CDCFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561271CF1DD17781001CDCFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561271DA1DD17781001CDCFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		561271B01DD1777F001CDCFF = {
+			isa = PBXGroup;
+			children = (
+				561271BB1DD17780001CDCFF /* PandaJump */,
+				561271D51DD17781001CDCFF /* PandaJumpTests */,
+				561271E01DD17781001CDCFF /* PandaJumpUITests */,
+				561271BA1DD17780001CDCFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		561271BA1DD17780001CDCFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				561271B91DD17780001CDCFF /* PandaJump.app */,
+				561271D21DD17781001CDCFF /* PandaJumpTests.xctest */,
+				561271DD1DD17781001CDCFF /* PandaJumpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		561271BB1DD17780001CDCFF /* PandaJump */ = {
+			isa = PBXGroup;
+			children = (
+				561271BF1DD17780001CDCFF /* AppDelegate.h */,
+				561271C01DD17780001CDCFF /* AppDelegate.m */,
+				561271C21DD17780001CDCFF /* ViewController.h */,
+				561271C31DD17780001CDCFF /* ViewController.m */,
+				561271EF1DD177B6001CDCFF /* PandaFaceView.h */,
+				561271F01DD177B6001CDCFF /* PandaFaceView.m */,
+				561271F21DD18641001CDCFF /* JumpBallView.h */,
+				561271F31DD18641001CDCFF /* JumpBallView.m */,
+				561271C51DD17780001CDCFF /* Main.storyboard */,
+				561271C81DD17780001CDCFF /* Assets.xcassets */,
+				561271CA1DD17780001CDCFF /* LaunchScreen.storyboard */,
+				561271CD1DD17780001CDCFF /* Info.plist */,
+				561271BC1DD17780001CDCFF /* Supporting Files */,
+			);
+			path = PandaJump;
+			sourceTree = "<group>";
+		};
+		561271BC1DD17780001CDCFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				561271BD1DD17780001CDCFF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		561271D51DD17781001CDCFF /* PandaJumpTests */ = {
+			isa = PBXGroup;
+			children = (
+				561271D61DD17781001CDCFF /* PandaJumpTests.m */,
+				561271D81DD17781001CDCFF /* Info.plist */,
+			);
+			path = PandaJumpTests;
+			sourceTree = "<group>";
+		};
+		561271E01DD17781001CDCFF /* PandaJumpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				561271E11DD17781001CDCFF /* PandaJumpUITests.m */,
+				561271E31DD17781001CDCFF /* Info.plist */,
+			);
+			path = PandaJumpUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		561271B81DD17780001CDCFF /* PandaJump */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 561271E61DD17781001CDCFF /* Build configuration list for PBXNativeTarget "PandaJump" */;
+			buildPhases = (
+				561271B51DD17780001CDCFF /* Sources */,
+				561271B61DD17780001CDCFF /* Frameworks */,
+				561271B71DD17780001CDCFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PandaJump;
+			productName = PandaJump;
+			productReference = 561271B91DD17780001CDCFF /* PandaJump.app */;
+			productType = "com.apple.product-type.application";
+		};
+		561271D11DD17781001CDCFF /* PandaJumpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 561271E91DD17781001CDCFF /* Build configuration list for PBXNativeTarget "PandaJumpTests" */;
+			buildPhases = (
+				561271CE1DD17781001CDCFF /* Sources */,
+				561271CF1DD17781001CDCFF /* Frameworks */,
+				561271D01DD17781001CDCFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				561271D41DD17781001CDCFF /* PBXTargetDependency */,
+			);
+			name = PandaJumpTests;
+			productName = PandaJumpTests;
+			productReference = 561271D21DD17781001CDCFF /* PandaJumpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		561271DC1DD17781001CDCFF /* PandaJumpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 561271EC1DD17781001CDCFF /* Build configuration list for PBXNativeTarget "PandaJumpUITests" */;
+			buildPhases = (
+				561271D91DD17781001CDCFF /* Sources */,
+				561271DA1DD17781001CDCFF /* Frameworks */,
+				561271DB1DD17781001CDCFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				561271DF1DD17781001CDCFF /* PBXTargetDependency */,
+			);
+			name = PandaJumpUITests;
+			productName = PandaJumpUITests;
+			productReference = 561271DD1DD17781001CDCFF /* PandaJumpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		561271B11DD1777F001CDCFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "智觅智能";
+				TargetAttributes = {
+					561271B81DD17780001CDCFF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = RCU59W4JZW;
+						ProvisioningStyle = Automatic;
+					};
+					561271D11DD17781001CDCFF = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 561271B81DD17780001CDCFF;
+					};
+					561271DC1DD17781001CDCFF = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 561271B81DD17780001CDCFF;
+					};
+				};
+			};
+			buildConfigurationList = 561271B41DD1777F001CDCFF /* Build configuration list for PBXProject "PandaJump" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 561271B01DD1777F001CDCFF;
+			productRefGroup = 561271BA1DD17780001CDCFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				561271B81DD17780001CDCFF /* PandaJump */,
+				561271D11DD17781001CDCFF /* PandaJumpTests */,
+				561271DC1DD17781001CDCFF /* PandaJumpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		561271B71DD17780001CDCFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561271CC1DD17780001CDCFF /* LaunchScreen.storyboard in Resources */,
+				561271C91DD17780001CDCFF /* Assets.xcassets in Resources */,
+				561271C71DD17780001CDCFF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561271D01DD17781001CDCFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561271DB1DD17781001CDCFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		561271B51DD17780001CDCFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561271F11DD177B6001CDCFF /* PandaFaceView.m in Sources */,
+				561271C41DD17780001CDCFF /* ViewController.m in Sources */,
+				561271C11DD17780001CDCFF /* AppDelegate.m in Sources */,
+				561271F41DD18641001CDCFF /* JumpBallView.m in Sources */,
+				561271BE1DD17780001CDCFF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561271CE1DD17781001CDCFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561271D71DD17781001CDCFF /* PandaJumpTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561271D91DD17781001CDCFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561271E21DD17781001CDCFF /* PandaJumpUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		561271D41DD17781001CDCFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 561271B81DD17780001CDCFF /* PandaJump */;
+			targetProxy = 561271D31DD17781001CDCFF /* PBXContainerItemProxy */;
+		};
+		561271DF1DD17781001CDCFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 561271B81DD17780001CDCFF /* PandaJump */;
+			targetProxy = 561271DE1DD17781001CDCFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		561271C51DD17780001CDCFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				561271C61DD17780001CDCFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		561271CA1DD17780001CDCFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				561271CB1DD17780001CDCFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		561271E41DD17781001CDCFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		561271E51DD17781001CDCFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		561271E71DD17781001CDCFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RCU59W4JZW;
+				INFOPLIST_FILE = PandaJump/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sensology.PandaJump;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		561271E81DD17781001CDCFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RCU59W4JZW;
+				INFOPLIST_FILE = PandaJump/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sensology.PandaJump;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		561271EA1DD17781001CDCFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PandaJumpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sensology.PandaJumpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PandaJump.app/PandaJump";
+			};
+			name = Debug;
+		};
+		561271EB1DD17781001CDCFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PandaJumpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sensology.PandaJumpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PandaJump.app/PandaJump";
+			};
+			name = Release;
+		};
+		561271ED1DD17781001CDCFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PandaJumpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sensology.PandaJumpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PandaJump;
+			};
+			name = Debug;
+		};
+		561271EE1DD17781001CDCFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PandaJumpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sensology.PandaJumpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PandaJump;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		561271B41DD1777F001CDCFF /* Build configuration list for PBXProject "PandaJump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561271E41DD17781001CDCFF /* Debug */,
+				561271E51DD17781001CDCFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		561271E61DD17781001CDCFF /* Build configuration list for PBXNativeTarget "PandaJump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561271E71DD17781001CDCFF /* Debug */,
+				561271E81DD17781001CDCFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		561271E91DD17781001CDCFF /* Build configuration list for PBXNativeTarget "PandaJumpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561271EA1DD17781001CDCFF /* Debug */,
+				561271EB1DD17781001CDCFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		561271EC1DD17781001CDCFF /* Build configuration list for PBXNativeTarget "PandaJumpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561271ED1DD17781001CDCFF /* Debug */,
+				561271EE1DD17781001CDCFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 561271B11DD1777F001CDCFF /* Project object */;
+}

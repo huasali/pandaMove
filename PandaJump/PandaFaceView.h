@@ -1,0 +1,13 @@
+//
+//  PandaFaceView.h
+//  PandaJump
+//
+//  Created by sensology on 2016/11/8.
+//  Copyright © 2016年 智觅智能. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface PandaFaceView : UIView
+
+@end
